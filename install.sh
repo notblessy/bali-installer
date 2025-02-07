@@ -60,8 +60,8 @@ function configure_shell_path() {
     shell_rc="$HOME/.profile"
   fi
 
-  if ! grep -q 'export PATH="$HOME/.local/bin"' "$shell_rc"; then
-    echo 'export PATH="$HOME/.local/bin"' >> "$shell_rc"
+  if ! grep -q 'export PATH="\$HOME/.local/bin:\$PATH"' "$shell_rc"; then
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$shell_rc"
     echo "Added $INSTALL_DIR to your PATH in $shell_rc"
   fi
 
