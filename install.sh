@@ -10,7 +10,7 @@ fi
 
 # Set installation directory
 INSTALL_DIR="$HOME/.local/bin"
-BALI_BINARY_URL="https://github.com/notblessy/basa-pemrograman-bali/releases/download/v0.0.2/bali-language-v0.0.2"
+BALI_BINARY_URL="https://github.com/notblessy/basa-pemrograman-bali/releases/download/v0.0.3/bali-language-v0.0.3"
 BALI_BINARY="$INSTALL_DIR/bali"
 
 # Create target directory if it doesn't exist
